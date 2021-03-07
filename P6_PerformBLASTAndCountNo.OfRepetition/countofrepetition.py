@@ -1,4 +1,4 @@
-# program to find count of repetition of a sequence for a given nucelotide.
+# program to find count of repetition of a sequence for a given nucleotide.
 file=open("genes.txt","r")  
 r=file.read()  
 size=len(r)  
@@ -22,3 +22,10 @@ print("score of G is ",score_G)
 
 """ Genes.txt should ne in the same folder/location as python file for count
 of repetition of sequence. """
+
+Output:
+===== RESTART: C:\Users\bhavana vanjani\Downloads\P6_CountNoOfRepetition.py ====
+score of A is  206
+score of C is  236
+score of T is  217
+score of G is  279
