@@ -1,3 +1,4 @@
+# Write a program to calculate fingerprint of a sequence.
 def solve_fingerprint(seq_list, no_of_col):
      seq_dict=dict()
      for colnum in range(no_of_col):
