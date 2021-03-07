@@ -1,3 +1,4 @@
+# Write a program to calculate regular expression of a given sequence.
 def gen_reg_exp(seq_list, no_of_col):  
      final_list=[]  
      for colnum in range(no_of_col):  
